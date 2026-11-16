@@ -1,0 +1,10 @@
+# Downloaded build/reverse-engineering tools (apktool, Android build-tools, etc.)
+tools/
+
+# Decompiled apktool output (regenerable from the original APK)
+gg_decoded/
+*_decoded/
+
+# Intermediate build artifacts
+*.patched.apk
+*.aligned.apk
